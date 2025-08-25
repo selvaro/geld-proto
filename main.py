@@ -18,7 +18,7 @@ def create_record(body: str):
     response = requests.post(
         "http://ollama:11434/api/generate",
         json={
-            "model": "money-llama3",
+            "model": "geld-llama3",
             "prompt": body,
             "stream": False,
         },
